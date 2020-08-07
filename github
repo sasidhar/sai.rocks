@@ -1,0 +1,69 @@
+<body>
+    <h1>How Git Works</h1>
+    <p>Contents</p>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="piano.html">Piano</a></li>
+        <li><a href="places-visited.html">Places Visited</a></li>
+        <li><a href="drawings.html">Drawings</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="how-git-works.html">About GitHub</a></li>
+    </ul>
+    <p>If we want to store our valuables we go to the bank, if we want to store code we use Git. There are many places
+        to store
+        code like GitHub, Bitbucket and GitLab.
+        I will show you some things in GitHub. Instead of keeping everything messed up
+        you can organize it. That’s why we use repositories. To create a new repository press New. Then type the name of
+        your
+        repository. The name should not have any spaces, the name should be all lowercase and the name should be hyphen
+        separated. You can add a description but it is optional. You can choose if it should be public or private.
+        Public means
+        that everyone could see it and private means that only you can see it. Then you can add a README page. A README
+        is a
+        page that explains what your project is about. If you want to change it from public to private then you can go
+        to
+        Settings and go to Options and then scroll down to Danger Zone and press Change Visibility. If you want to give
+        your
+        repository to someone else then go to Danger Zone and press Transfer. If you want to not modify or add anything
+        then go
+        to Danger Zone and press Archive. If you want to delete your repository then go to Danger Zone and press Delete
+    Repository.</p>
+
+<p>Following is the general workflow of working with a GitHub Git Repository.</p>
+
+<h3>One Time Configuration</h3>
+<ul>
+    <li>Get the URL of your code repository. For this you can click on the green Code button and you can press the little clipboard icon. This will copy the URL</li>
+    <li>Open your terminal. Type git clone Copied-URL-here. With this you will have the git repository in your local machine</li>
+<li>Go to the cloned repository folder. Type cd folder-name-here.</li>
+<li>Now we need to let Git know who we are. This information will be used when we make any code commits. There is two sets of information we need to give.
+    <ol>
+        <li>First one is: Your name. For this use the command: git config user.name "Your Name Here"</li>
+        <li>Second one is: Your email. For this use the command: git config user.email "Your Email Here". Make sure that this email matches with your Github account email.</li>
+    </ol>
+    </li>
+</ul>
+<p>All the settings that we make till now needs to done only once. We don't need to repeat this every time.</p>
+
+<h3>Code Changes and Updates</h3>
+<ul>
+    <li>Open terminal</li>
+    <li>Go to your repository folder</li>
+    <li>Check status using the command: git status</li>
+    <li>Open your code base in Visual Studio Code. Use code . for this.</li>
+    <li>Make all the required changes you want. The changes may include adding/editing/deleting files/text.</li>
+    <li>You can move back to the terminal and check the current git status using: git status. It will list what are the changes that are pending a commit or pushing to the repository</li>
+    <li>In Visual Studio Code, on the left side, there is a Git button. You can click that and see what are the files modified.</li>
+    <li>You can also click on each file and see the changes that you made in each of those files</li>
+    <li>Once everything looks good and as per your requirements, then Stage those files for commit. For this you need to press the "+" button next to each file. If you have 5 files. And if you want to commit only one file. Then press the "+" button only next to that file. This step is called staging.</li>
+    <li>Once you staged the files for commit, then you can add a message in the top text input. Then press the "Tick" mark button next to it. or Control + Enter. This will commit your staged changes. Remember: All you commits are still in your local machine. They are not yet pushed to the Github repository.</li>
+    <li>Now to push these commits to the repository, in VS Code in the same Git tab, click on the Sync button at the bottom. The Sync button is shown with a circle with two arrows. Here it may ask for your username and/or password.</li>
+</ul>
+ 
+
+
+</body>
