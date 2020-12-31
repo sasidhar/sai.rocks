@@ -1,6 +1,49 @@
+:not(a) {
+  color: #a71717;
+}
+
+li {
+  padding: 5px;
+}
+
+a:focus {
+  color: rgb(172, 122, 122);
+  border: saddlebrown;
+}
+
+a:visited {
+  color: rgb(72, 72, 161);
+}
+
+a:hover {
+  color: rgb(37, 112, 122);
+  background: rgb(118, 206, 118);
+}
+
 body {
-    background-color:rgb(255,155,55);
-    font-family: "Roboto", sans-serif;
+  font-family: "Major Mono Display", monospace;
+}
+
+p {
+  font-size: large;
+}
+
+a {
+  font-family: "B612 Mono", monospace;
+  color: rgb(45, 70, 19);
+  text-decoration: none;
+}
+
+body {
+  padding-left: 17px;
+}
+
+h1 {
+  font-family: "Texturina", serif;
+}
+
+body {
+  background-color: silver;
 }
 img{
     border: 3px solid rgb(0, 242, 234);
