@@ -1,55 +1,58 @@
 :not(a) {
-  color: #a71717;
+    color: #a71717;
 }
 
 li {
-  padding: 5px;
+    padding: 5px;
 }
 
 a:focus {
-  color: rgb(172, 122, 122);
-  border: saddlebrown;
+    color: rgb(172, 122, 122);
+    border: saddlebrown;
 }
 
 a:visited {
-  color: rgb(72, 72, 161);
+    color: rgb(115, 115, 129);
 }
 
 a:hover {
-  color: rgb(37, 112, 122);
-  background: rgb(118, 206, 118);
+    color: rgb(37, 112, 122);
+    border-radius: 20px;
+    padding: 5px;
+    background: rgb(118, 206, 118);
 }
 
 body {
-  font-family: "Major Mono Display", monospace;
+    font-family: "Major Mono Display", monospace;
 }
 
 p {
-  font-size: large;
+    font-size: large;
+    font-family: "Texturina", serif;
 }
 
 a {
-  font-family: "B612 Mono", monospace;
-  color: rgb(45, 70, 19);
-  text-decoration: none;
+    font-family: "B612 Mono", monospace;
+    color: rgb(45, 70, 19);
+    text-decoration: none;
 }
 
 body {
-  padding-left: 17px;
+    padding-left: 17px;
+}
+body {
+    background-color: silver;
 }
 
 h1 {
-  font-family: "Texturina", serif;
+    font-family: "Texturina", serif;
 }
 
-body {
-  background-color: silver;
-}
-img{
+img {
     border: 3px solid rgb(0, 242, 234);
     border-radius: 30px;
 }
-#about{
+#about {
     border: 2px solid rgb(3, 73, 105);
     border-radius: 25px;
 }
