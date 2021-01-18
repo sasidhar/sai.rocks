@@ -13,6 +13,7 @@ a:focus {
 
 a:visited {
     color: rgb(115, 115, 129);
+    font-family: "Hachi Maru Pop", cursive;
 }
 
 a:hover {
