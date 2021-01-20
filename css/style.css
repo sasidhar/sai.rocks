@@ -1,3 +1,15 @@
+* {
+    font-size: normal;
+}
+
+.different {
+
+}
+
+.same {
+    font-family: "Satisfy", cursive;
+}
+
 :not(a) {
     color: #a71717;
 }
@@ -13,7 +25,6 @@ a:focus {
 
 a:visited {
     color: rgb(115, 115, 129);
-    font-family: "Hachi Maru Pop", cursive;
 }
 
 a:hover {
