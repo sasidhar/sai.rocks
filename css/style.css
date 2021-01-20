@@ -1,9 +1,13 @@
 * {
-    font-size: normal;
+    font-weight: normal;
+}
+
+h3 {
+    font-style: italic;
 }
 
 .different {
-
+    font-family: "Yusei Magic", sans-serif;
 }
 
 .same {
