@@ -70,6 +70,7 @@ p {
     border: 2px solid steelblue;
     padding: 3px;
     border-radius: 7px;
+    text-decoration: none;
 }
 
 .bed li:hover {
@@ -77,6 +78,7 @@ p {
     border-radius: 30px;
     background: rgb(118, 206, 118);
     padding: 10px;
+    text-decoration: none;
 }
 
 body {
