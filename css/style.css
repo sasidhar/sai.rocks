@@ -2,6 +2,10 @@
     font-weight: normal;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
 }
@@ -20,16 +24,16 @@ h3 {
     color: rgb(189, 96, 184);
 }
 
-.yit:hover {
+.yit {
     font-family: "Cantarell", sans-serif;
-    color: rgb(37, 112, 122);
-    border-radius: 30px;
-    padding: 1px;
-    background: rgb(118, 206, 118);
 }
 
 .same {
     font-family: "Satisfy", cursive;
+}
+
+#minecraft {
+    font-family: "B612 Mono", monospace;
 }
 
 :not(a) {
