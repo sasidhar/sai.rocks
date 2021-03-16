@@ -2,8 +2,17 @@
     font-weight: normal;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 h3 {
     font-style: italic;
+    text-align: center;
 }
 
 .different {
@@ -11,8 +20,12 @@ h3 {
     color: rgb(189, 96, 184);
 }
 
-.yit {
+.yit:hover {
     font-family: "Cantarell", sans-serif;
+    color: rgb(37, 112, 122);
+    border-radius: 30px;
+    padding: 1px;
+    background: rgb(118, 206, 118);
 }
 
 .same {
@@ -24,7 +37,7 @@ h3 {
 }
 
 li {
-    padding: 5px;
+    display: inline;
 }
 
 a:focus {
@@ -36,13 +49,6 @@ a:visited {
     color: rgb(115, 115, 129);
 }
 
-a:hover {
-    color: rgb(37, 112, 122);
-    border-radius: 20px;
-    padding: 5px;
-    background: rgb(118, 206, 118);
-}
-
 body {
     font-family: "Major Mono Display", monospace;
 }
@@ -52,11 +58,25 @@ p {
     font-family: "Texturina", serif;
 }
 
-a {
+.bed li {
     font-family: "B612 Mono", monospace;
     color: rgb(45, 70, 19);
     text-decoration: none;
     transition: all 0.5s 3ms linear;
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    background-color: rgb(115, 164, 204);
+    border: 2px solid steelblue;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.bed li:hover {
+    border: 2px solid steelblue;
+    border-radius: 30px;
+    background: rgb(118, 206, 118);
+    padding: 10px;
 }
 
 body {
