@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <style>
+        form {
+            width: 400px;
+            margin: auto;
+        }
+        form div {
+            border: 1px solid red;
+            border-top-width: 0;
+            padding: 10px 0;
+        }
+        form div:first-child {
+            border-top: 1px solid red;
+        }
+        label {
+            display: flex;
+        }
+        label span {
+            width: 50%;
+        }
+        label span:first-child {
+            text-align: right;
+            padding-right: 4px;
+        }
+        label span:last-child {
+            text-align: left;
+            padding-left: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div>
+            <label>
+                <span>Enter your name:</span>
+                <span><input type="text" /></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Enter your Password:</span>
+                <span><input type="password" /></span>
+            </label>
+        </div>
+    </form>
+</body>
+</html>
