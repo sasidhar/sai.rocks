@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inputs</title>
     <style>
+        /* textarea, input {
+            font-family: inherit;
+            font-size: inherit;
+        } */
         form {
             width: 400px;
             margin: auto;
@@ -32,6 +36,9 @@
             text-align: left;
             padding-left: 4px;
         }
+        textarea {
+            resize:vertical;
+        }
     </style>
 </head>
 <body>
@@ -40,13 +47,25 @@
         <div>
             <label>
                 <span>Enter your name:</span>
-                <span><input type="text" /></span>
+                <span><input type="text" placeholder="crazy name" /></span>
             </label>
         </div>
         <div>
             <label>
                 <span>Enter your Password:</span>
-                <span><input type="password" /></span>
+                <span><input type="password" placeholder="secure password" /></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Enter your comments:</span>
+                <span><textarea placeholder="good comments"></textarea></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Enter your phone:</span>
+                <span><input type="tel" /></span>
             </label>
         </div>
     </form>
