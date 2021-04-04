@@ -17,27 +17,26 @@
         form div {
             border: 1px solid red;
             border-top-width: 0;
-            padding: 10px 0;
+            padding: 10px;
         }
         form div:first-child {
             border-top: 1px solid red;
         }
         label {
             display: flex;
-        }
-        label span {
-            width: 50%;
+            flex-direction: column;
         }
         label span:first-child {
-            text-align: right;
-            padding-right: 4px;
+            /* text-align: right; */
+            /* padding-right: 4px; */
+            margin-bottom: 5px;
         }
         label span:last-child {
             text-align: left;
-            padding-left: 4px;
+            /* padding-left: 4px; */
         }
         textarea {
-            resize:vertical;
+            resize:none;
         }
     </style>
 </head>
@@ -71,13 +70,31 @@
         <div>
             <label>
                 <span>Enter your email:</span>
-                <span><input type="email" placeholder="your-name@example.com" /></span>
+                <span><input type="email" placeholder="name@example.com" /></span>
             </label>
         </div>
         <div>
             <label>
                 <span>Enter your website:</span>
                 <span><input type="url" placeholder="https://example.com" /></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Select states you visited:</span>
+                <span><select size="10" multiple>
+                    <option></option>
+                    <option>California</option>
+                    <option>Oregon</option>
+                    <option>Washington</option>
+                    <option>Colorado</option>
+                </select></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                <span>Upload your resume:</span>
+                <span><input type="file" /></span>
             </label>
         </div>
     </form>
