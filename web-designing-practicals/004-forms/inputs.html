@@ -22,10 +22,13 @@
         form div:first-child {
             border-top: 1px solid red;
         }
-        label {
+        form .label {
+            display: block;
+        }
+        /* label {
             display: flex;
             flex-direction: column;
-        }
+        } */
         label span:first-child {
             /* text-align: right; */
             /* padding-right: 4px; */
@@ -45,44 +48,44 @@
     <form>
         <div>
             <label>
-                <span>Enter your name:</span>
-                <span><input type="text" placeholder="crazy name" /></span>
+                <span class="label">Enter your name:</span>
+                <span class="field"><input type="text" placeholder="crazy name" /></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Enter your Password:</span>
-                <span><input type="password" placeholder="secure password" /></span>
+                <span class="label">Enter your Password:</span>
+                <span class="field"><input type="password" placeholder="secure password" /></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Enter your comments:</span>
-                <span><textarea placeholder="good comments"></textarea></span>
+                <span class="label">Enter your comments:</span>
+                <span class="field"><textarea placeholder="good comments"></textarea></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Enter your phone:</span>
-                <span><input type="tel" placeholder="+1 (123) 456-7890" /></span>
+                <span class="label">Enter your phone:</span>
+                <span class="field"><input type="tel" placeholder="+1 (123) 456-7890" /></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Enter your email:</span>
-                <span><input type="email" placeholder="name@example.com" /></span>
+                <span class="label">Enter your email:</span>
+                <span class="field"><input type="email" placeholder="name@example.com" /></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Enter your website:</span>
-                <span><input type="url" placeholder="https://example.com" /></span>
+                <span class="label">Enter your website:</span>
+                <span class="field"><input type="url" placeholder="https://example.com" /></span>
             </label>
         </div>
         <div>
             <label>
-                <span>Select states you visited:</span>
-                <span><select size="10" multiple>
+                <span class="label">Select states you visited:</span>
+                <span class="field"><select size="10" multiple>
                     <option></option>
                     <option>California</option>
                     <option>Oregon</option>
@@ -93,9 +96,69 @@
         </div>
         <div>
             <label>
-                <span>Upload your resume:</span>
-                <span><input type="file" /></span>
+                <span class="label">Upload your resume:</span>
+                <span class="field"><input type="file" /></span>
             </label>
+        </div>
+        <div>
+            <span class="label">Select states you visited:</span>
+            <span class="field">
+                <label>
+                    <input type="checkbox" value="California" /> California
+                </label>
+                <label>
+                    <input type="checkbox" value="Oregon" /> Oregon
+                </label>
+                <label>
+                    <input type="checkbox" value="Washington" /> Washington
+                </label>
+                <label>
+                    <input type="checkbox" value="Colorado" /> Colorado
+                </label>
+                <label>
+                    <input type="checkbox" value="Nevada" /> Nevada
+                </label>
+            </span>
+        </div>
+        <div>
+            <span class="label">Select current state:</span>
+            <span class="field">
+                <label>
+                    <input type="radio" name="current-state" value="California" /> California
+                </label>
+                <label>
+                    <input type="radio" name="current-state" value="Oregon" /> Oregon
+                </label>
+                <label>
+                    <input type="radio" name="current-state" value="Washington" /> Washington
+                </label>
+                <label>
+                    <input type="radio" name="current-state" value="Colorado" /> Colorado
+                </label>
+                <label>
+                    <input type="radio" name="current-state" value="Nevada" /> Nevada
+                </label>
+            </span>
+        </div>
+        <div>
+            <span class="label">Select previous state:</span>
+            <span class="field">
+                <label>
+                    <input type="radio" name="previous-state" value="California" /> California
+                </label>
+                <label>
+                    <input type="radio" name="previous-state" value="Oregon" /> Oregon
+                </label>
+                <label>
+                    <input type="radio" name="previous-state" value="Washington" /> Washington
+                </label>
+                <label>
+                    <input type="radio" name="previous-state" value="Colorado" /> Colorado
+                </label>
+                <label>
+                    <input type="radio" name="previous-state" value="Nevada" /> Nevada
+                </label>
+            </span>
         </div>
     </form>
 </body>
