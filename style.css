@@ -6,17 +6,8 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
 h3 {
     font-style: italic;
-    text-align: center;
 }
 
 .different {
@@ -68,7 +59,7 @@ p {
     text-decoration: none;
     transition: all 0.5s 3ms linear;
     display: inline-block;
-    text-align: center;
+
     margin: 3px;
     background-color: rgb(115, 164, 204);
     border: 2px solid steelblue;
