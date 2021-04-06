@@ -11,8 +11,8 @@ h3 {
 }
 
 .different {
-    font-family: "Syne Mono", monospace;
-    color: rgb(189, 96, 184);
+    font-family: "JetBrains Mono", monospace;
+    color: #a71717;
 }
 
 .yit {
@@ -54,18 +54,17 @@ p {
 }
 
 .bed li {
-    font-family: "B612 Mono", monospace;
     color: rgb(45, 70, 19);
     text-decoration: none;
     transition: all 0.5s 3ms linear;
     display: inline-block;
-
     margin: 3px;
     background-color: rgb(115, 164, 204);
     border: 2px solid steelblue;
     padding: 3px;
     border-radius: 7px;
     text-decoration: none;
+    font-family: "Syne Mono", monospace;
 }
 
 .bed li:hover {
@@ -74,6 +73,7 @@ p {
     background: rgb(118, 206, 118);
     padding: 10px;
     text-decoration: none;
+    font-family: "B612 Mono", monospace;
 }
 
 body {
@@ -84,7 +84,7 @@ body {
 }
 
 h1 {
-    font-family: "Texturina", serif;
+    font-family: "JetBrains Mono", monospace;
 }
 
 img {
