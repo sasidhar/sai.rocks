@@ -1,35 +1,35 @@
 const links = [
     {
         linkName: "Home",
-        link: "index-new.html",
+        link: "index.html",
     },
     {
         linkName: "About",
-        link: "about-new.html",
+        link: "about.html",
     },
     {
         linkName: "Contact",
-        link: "contact-new.html",
+        link: "contact.html",
     },
     {
         linkName: "Education",
-        link: "education-new.html",
+        link: "education.html",
     },
     {
         linkName: "About Github",
-        link: "how-git-works-new.html",
+        link: "how-git-works.html",
     },
     {
         linkName: "Links",
-        link: "links-new.html",
+        link: "links.html",
     },
     {
         linkName: "Photos",
-        link: "photos-new.html",
+        link: "photos.html",
     },
     {
         linkName: "Places Visited",
-        link: "places-visited-new.html",
+        link: "places-visited.html",
     },
 ];
 
