@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+#widget-container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+    position: relative;
+}
+#message-container {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: 96px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    border-top: 1px solid red;
+    padding: 5px;
+}
+#message-container .message:first-child {
+    margin-top: auto;
+}
+.message::first-letter {
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+#send-message {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #eee;
+    padding: 5px;
+    border-top: 1px solid red;
+    display: flex;
+}
+textarea {
+    flex: 1;
+    margin-right: 5px;
+    resize: none;
+    height: 80px;
+}
