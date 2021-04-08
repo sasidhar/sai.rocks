@@ -1,9 +1,7 @@
 {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
-   "editor.formatOnSave": true,
+    "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
-    "files.autoSave": "afterDelay",
-    "editor.wordWrap": "on",
-    "editor.cursorStyle": "underline"
+    "editor.wordWrap": "on"
 }
