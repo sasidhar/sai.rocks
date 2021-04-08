@@ -1,55 +1,38 @@
 const links = [
     {
         linkName: "Home",
-        link: "index.html",
+        link: "index-new.html",
     },
     {
         linkName: "About",
-        link: "about.html",
+        link: "about-new.html",
     },
     {
         linkName: "Contact",
-        link: "contact.html",
+        link: "contact-new.html",
     },
     {
         linkName: "Education",
-        link: "education.html",
+        link: "education-new.html",
     },
     {
         linkName: "About Github",
-        link: "how-git-works.html",
+        link: "how-git-works-new.html",
     },
     {
         linkName: "Links",
-        link: "links.html",
+        link: "links-new.html",
     },
     {
         linkName: "Photos",
-        link: "photos.html",
-    },
-    {
-        linkName: "Drawings",
-        link: "drawings.html",
-    },
-    {
-        linkName: "Piano",
-        link: "piano.html",
+        link: "photos-new.html",
     },
     {
         linkName: "Places Visited",
-        link: "places-visited.html",
-    },
-    {
-        linkName: "HTML Practicals",
-        link: "html-practicals",
+        link: "places-visited-new.html",
     },
 ];
 
-/*
-<ul class="nav" id="nav">
-
-        </ul>
-*/
 const fragment = document.createDocumentFragment();
 
 for (let i = 0; i < links.length; i++) {

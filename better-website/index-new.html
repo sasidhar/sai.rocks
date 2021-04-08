@@ -2,38 +2,40 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Sai Vanga's Website</title>
+        <title>About</title>
         <link rel="stylesheet" href="styles-new.css" />
         <link rel="stylesheet" href="styles.light.css" />
         <link rel="stylesheet" href="styles.dark.css" />
-
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
             rel="stylesheet"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Audiowide&family=B612+Mono:ital@1&family=Cantarell:ital@1&family=Major+Mono+Display&family=Satisfy&family=Syne+Mono&family=Texturina:ital,wght@1,100&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap"
             rel="stylesheet"
         />
     </head>
     <body>
-        <h1>Sai Vanga's Website</h1>
-        <h2>Welcome</h2>
-        <p class="same">Contents</p>
-        <ul class="bed">
-            <li><a href="about-new.html">About</a></li>
-            <li><a href="lego-new.html">Legos</a></li>
-            <li><a href="links-new.html">Links</a></li>
-            <li><a href="education-new.html">Education</a></li>
-            <li><a href="photos-new.html">Photos</a></li>
-            <li><a href="places-visited-new.html">Places Visited</a></li>
-            <li><a href="contact-new.html">Contact</a></li>
-            <li><a href="github-new.html"> About GitHub</a></li>
-        </ul>
-        <script src="security.js"></script>
+        <div id="page">
+            <div id="left">
+                <div id="logo">
+                    <h1>Sai Vanga</h1>
+                    <p><a href="https://Sai.rocks">https://Sai.rocks</a></p>
+                </div>
+                <div id="links">
+                    <ul class="nav" id="nav-links"></ul>
+                    <p><button id="switch-theme">Switch Theme</button></p>
+                </div>
+            </div>
+            <div id="right">
+                <h2>Home</h2>
+            </div>
+        </div>
+        <script src="nav.js"></script>
+        <script src="theme.js"></script>
     </body>
 </html>
