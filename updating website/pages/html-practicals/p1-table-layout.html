@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Table Layout</title>
+        <a href="index.html" class="nav" id="nav">Back to Main Page</a>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            html {
+                background-image: url(/patterns/paisley.png);
+                padding: 0;
+                padding-left: 0px;
+            }
+            h1 {
+                color: firebrick;
+                text-shadow: 2px 5px 3px gray;
+                font-weight: bolder;
+                font-family: "Roboto Condensed", cursive;
+                text-align: center;
+                font-size: 40px;
+                margin: 0;
+            }
+            table,
+            tr,
+            th,
+            td {
+                border: 1px solid black;
+                text-align: center;
+                padding: 7px;
+            }
+
+            table {
+                margin: auto;
+                border-collapse: collapse;
+            }
+
+            a:hover {
+                background-color: purple;
+                color: lightblue;
+                letter-spacing: 5px;
+                padding: 10px;
+            }
+
+            .nav:hover {
+                background-color: purple;
+                color: lightblue;
+                letter-spacing: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Table Layout</h1>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Sai</td>
+                <td>Telugu</td>
+                <td>95</td>
+                <td rowspan="3">280</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Lasya</td>
+                <td>Telugu</td>
+                <td>80</td>
+                <td rowspan="5">400</td>
+            </tr>
+            <tr>
+                <td>Malayalam</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </body>
+</html>
