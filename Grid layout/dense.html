@@ -3,13 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../assets/style.css" />
+        <link rel="stylesheet" href="css-grid-refrence/assets/style.css" />
         <title>grid-auto-flow dense Block Fitting!</title>
     </head>
 
     <body>
-        <p id="hello">With Dense:</p>
-
+        <p>With Dense:</p>
         <div class="container">
             <div class="item item1">1</div>
             <div class="item item2">2</div>
@@ -89,10 +88,6 @@
                 grid-gap: 20px;
                 grid-template-columns: repeat(10, 1fr);
                 grid-auto-flow: dense;
-            }
-
-            #hello {
-                font-size: 50px;
             }
 
             .item:nth-child(6n) {

@@ -31,6 +31,10 @@ const links = [
         linkName: "Places Visited",
         link: "pages/places-visited.html",
     },
+    {
+        linkName: "CSS Grid Refrence",
+        link: "css-grid-refrence",
+    },
 ];
 
 const fragment = document.createDocumentFragment();
