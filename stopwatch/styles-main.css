@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(253, 253, 177);
+}
+
+h1 {
+    font-family: "Ubuntu Mono", monospace;
+    text-shadow: rgba(0, 0, 0, 0.329) 3px 5px 5px;
+}
+#counter {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 50px;
+    margin: 10px;
+    text-shadow: rgba(0, 0, 0, 0.329) 3px 5px 5px;
+}
+
+#btn {
+    font-size: x-large;
+    font-family: "Space Mono", monospace;
+    border-radius: 23px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: salmon;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.329) 3px 5px 5px;
+}
